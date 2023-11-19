@@ -1,0 +1,19 @@
+<Project>
+    <PropertyGroup>
+        <SolutionDir>$(MSBuildThisFileDirectory)</SolutionDir>
+        <BuildPropsDir>$(SolutionDir)</BuildPropsDir>
+        <IsPackable>false</IsPackable>
+        <CommonPrefix>DataCompression</CommonPrefix>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <AssemblyName>$(CommonPrefix).$(MSBuildProjectName)</AssemblyName>
+        <RootNamespace>$(CommonPrefix).$(MSBuildProjectName)</RootNamespace>
+    </PropertyGroup>
+</Project>
